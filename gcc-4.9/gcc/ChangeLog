@@ -160,6 +160,17 @@
 	loop if we redirected its latch edge.
 	(thread_block_1): Do not cancel loops prematurely.
 
+2015-02-04  Matthew Wahab  <matthew.wahab@arm.com>
+
+	* config/arm/arm-cores.def: Add cortex-a72 and
+	cortex-a72.cortex-a53.
+	* config/arm/bpabi.h (BE8_LINK_SPEC): Likewise.
+	* config/arm/t-aprofile (MULTILIB_MATCHES): Likewise.
+	* config/arm/arm-tune.md: Regenerate.
+	* config/arm/arm-tables.opt: Add entries for "cortex-a72" and
+	"cortex-a72.cortex-a53".
+	* doc/invoke.texi (ARM Options/-mtune): Likewise.
+
 2015-01-23  Jakub Jelinek  <jakub@redhat.com>
 
 	PR middle-end/64734
