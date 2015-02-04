@@ -162,6 +162,13 @@
 
 2015-02-04  Matthew Wahab  <matthew.wahab@arm.com>
 
+	* config/aarch64/aarch64-cores.def: Add cortex-a72 and
+	cortex-a72.cortex-a53.
+	* config/aarch64/aarch64-tune.md: Regenerate.
+	* doc/invoke.texi (AArch64 Options/-mtune): Add "cortex-a72".
+
+2015-02-04  Matthew Wahab  <matthew.wahab@arm.com>
+
 	* config/arm/arm-cores.def: Add cortex-a72 and
 	cortex-a72.cortex-a53.
 	* config/arm/bpabi.h (BE8_LINK_SPEC): Likewise.
