@@ -32,6 +32,15 @@
 	(thread_through_all_blocks): Call valid_jump_thread_path.
 	Remove invalid FSM jump-thread paths.
 
+2015-04-06  Evandro Menezes  <e.menezes@samsung.com>
+
+	* doc/invoke.texi (ARM/mtune): Add "exynos-m1" as an option.
+	* config/arm/arm.c (arm_issue_rate): Specify "3" for "exynosm1".
+	* config/arm/arm-cores.def (exynos-m1): New core.
+	* config/arm/arm-tune.md: Regenerate.
+	* config/arm/arm-tables.opt: Add entry for "exynos-m1".
+	* config/arm/bpabi.h: Likewise.
+
 2015-03-26  Bill Schmidt  <wschmidt@linux.vnet.ibm.com>
 
 	Backport of r214242, r214254, and bug fix patches from mainline

@@ -295,6 +295,9 @@ EnumValue
 Enum(processor_type) String(cortex-a72) Value(cortexa72)
 
 EnumValue
+Enum(processor_type) String(exynos-m1) Value(exynosm1)
+
+EnumValue
 Enum(processor_type) String(cortex-a57.cortex-a53) Value(cortexa57cortexa53)
 
 EnumValue
