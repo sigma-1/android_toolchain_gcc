@@ -4,6 +4,13 @@
        * config/i386/i386.c (ix86_option_override_internal): Do not increase
        PARAM_MAX_COMPLETELY_PEELED_INSNS.
 
+2014-09-10  Xinliang David Li  <davidxl@google.com>
+
+	Backport from mainline
+	PR target/63209
+	* config/arm/arm.md (movcond_addsi): Handle case where source
+	and target operands are the same.
+
 2014-10-29  Kyrylo Tkachov  <kyrylo.tkachov@arm.com>
 
 	* config/aarch64/aarch64.c (aarch64_madd_needs_nop): Restore
