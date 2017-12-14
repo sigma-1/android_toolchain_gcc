@@ -1,3 +1,13 @@
+2017-12-14 Vidir Alexander Jonsson	<valex@valex.is>
+
+	* config/aarch64/aarch64-cores.def: Add exynos-m1.cortex-a53.
+	* config/arm/arm-cores.def: Likewise.
+	* config/arm/bpabi.h (BE8_LINK_SPEC): Likewise.
+	* config/aarch64/aarch64-tune.md: Regenerate.
+	* config/arm/arm-tune.md: Regenerate.
+	* config/arm/arm-tables.opt: Add entry for "exynos-m1.cortex-a53".
+	* doc/invoke.texi (AArch64 Options/-mtune): Likewise.
+
 2016-01-22  Kyrylo Tkachov  <kyrylo.tkachov@arm.com>
 
 	PR target/69403

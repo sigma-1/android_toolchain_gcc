@@ -11783,7 +11783,8 @@ performance of the code.  Permissible values for this option are:
 
 Additionally, this option can specify that GCC should tune the performance
 of the code for a big.LITTLE system.  Permissible values for this
-option are: @samp{cortex-a57.cortex-a53}, @samp{cortex-a72.cortex-a53}.
+option are: @samp{cortex-a57.cortex-a53}, @samp{cortex-a72.cortex-a53},
+@samp{exynos-m1.cortex-a53}.
 
 Where none of @option{-mtune=}, @option{-mcpu=} or @option{-march=}
 are specified, the code will be tuned to perform well across a range

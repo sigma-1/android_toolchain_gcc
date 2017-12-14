@@ -73,6 +73,7 @@
    |mcpu=cortex-a72          \
    |mcpu=cortex-a72.cortex-a53       \
    |mcpu=exynos-m1                                      \
+   |mcpu=exynos-m1.cortex-a53       \
    |mcpu=generic-armv7-a                                \
    |march=armv7ve	                                \
    |march=armv7-m|mcpu=cortex-m3                        \
@@ -93,6 +94,7 @@
    |mcpu=cortex-a72          \
    |mcpu=cortex-a72.cortex-a53       \
    |mcpu=exynos-m1                                      \
+   |mcpu=exynos-m1.cortex-a53       \
    |mcpu=marvell-pj4					\
    |mcpu=generic-armv7-a                                \
    |march=armv7ve	                                \

@@ -165,3 +165,4 @@ ARM_CORE("exynos-m1",   exynosm1,  cortexa57,   8A, FL_LDSCHED | FL_CRC32, corte
 /* V8 big.LITTLE implementations */
 ARM_CORE("cortex-a57.cortex-a53", cortexa57cortexa53, cortexa53, 8A,  FL_LDSCHED | FL_CRC32, cortex_a57)
 ARM_CORE("cortex-a72.cortex-a53", cortexa72cortexa53, cortexa53, 8A,  FL_LDSCHED | FL_CRC32, cortex_a57)
+ARM_CORE("exynos-m1.cortex-a53", exynosm1cortexa53, cortexa53, 8A,  FL_LDSCHED | FL_CRC32, cortex_a57)
